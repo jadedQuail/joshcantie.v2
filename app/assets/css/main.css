@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-navy: #173f5f;
+  --color-sun: #f6d55c;
+  --color-ember: #ed553b;
+  --color-lagoon: #3caea3;
+
+  --font-display: 'Lato', ui-sans-serif, system-ui, sans-serif;
+}

@@ -1,0 +1,13 @@
+[build]
+  command = "npm run generate"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "24.18.0"
+
+# Legacy URL redirects go here when the old posts are migrated, e.g.
+#
+# [[redirects]]
+#   from = "/blog_5-6-23.html"
+#   to = "/blog/some-slug"
+#   status = 301

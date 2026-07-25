@@ -9,16 +9,22 @@ node_modules/
 !.yarn/versions
 
 # Build output
-dist/
+# no trailing slash: `nuxt generate` leaves dist as a symlink to .output/public,
+# and `dist/` would not match a symlink
+dist
 build/
 out/
 .next/
 .nuxt/
+.nitro/
 .astro/
 .svelte-kit/
 .vercel/
 .netlify/
 .output/
+
+# Nuxt Content local database
+.data/
 
 # Caches
 .cache/
@@ -52,6 +58,9 @@ coverage/
 !.vscode/tasks.json
 .idea/
 *.swp
+
+# Claude Code local-only settings (shared .claude config stays tracked)
+.claude/settings.local.json
 
 # OS
 .DS_Store
