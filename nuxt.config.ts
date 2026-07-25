@@ -7,6 +7,14 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/content'],
 
+  content: {
+    build: {
+      markdown: {
+        highlight: { theme: 'github-dark' },
+      },
+    },
+  },
+
   css: ['~/assets/css/main.css'],
 
   vite: {
