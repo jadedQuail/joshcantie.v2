@@ -5,9 +5,234 @@
 [build.environment]
   NODE_VERSION = "24.18.0"
 
-# Legacy URL redirects go here when the old posts are migrated, e.g.
-#
-# [[redirects]]
-#   from = "/blog_5-6-23.html"
-#   to = "/blog/some-slug"
-#   status = 301
+# Legacy URL redirects: the v1 site served each post as a top-level .html file.
+
+[[redirects]]
+  from = "/blog_6-23-20.html"
+  to = "/blog/my-first-post"
+  status = 301
+
+[[redirects]]
+  from = "/blog_6-27-20.html"
+  to = "/blog/playing-with-blender"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-7-20.html"
+  to = "/blog/putting-pieces-together-in-unity"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-13-20.html"
+  to = "/blog/health-bars-and-spin-attacks"
+  status = 301
+
+[[redirects]]
+  from = "/blog_8-6-20.html"
+  to = "/blog/database-weapons-terrains"
+  status = 301
+
+[[redirects]]
+  from = "/blog_8-9-20.html"
+  to = "/blog/ctfs-and-low-poly-terrains"
+  status = 301
+
+[[redirects]]
+  from = "/blog_8-27-20.html"
+  to = "/blog/networking-and-inventory-system"
+  status = 301
+
+[[redirects]]
+  from = "/blog_9-1-20.html"
+  to = "/blog/hud-improvements"
+  status = 301
+
+[[redirects]]
+  from = "/blog_9-13-20.html"
+  to = "/blog/particle-trails-and-shopping"
+  status = 301
+
+[[redirects]]
+  from = "/blog_1-17-21.html"
+  to = "/blog/update"
+  status = 301
+
+[[redirects]]
+  from = "/blog_2-28-21.html"
+  to = "/blog/more-certs-and-some-plans"
+  status = 301
+
+[[redirects]]
+  from = "/blog_3-4-21.html"
+  to = "/blog/simple-frogger"
+  status = 301
+
+[[redirects]]
+  from = "/blog_3-21-21.html"
+  to = "/blog/a-few-updates"
+  status = 301
+
+[[redirects]]
+  from = "/blog_5-3-22.html"
+  to = "/blog/updates-and-new-2d-game"
+  status = 301
+
+[[redirects]]
+  from = "/blog_5-18-22.html"
+  to = "/blog/smooth-gameplay"
+  status = 301
+
+[[redirects]]
+  from = "/blog_6-8-22.html"
+  to = "/blog/inventory-system"
+  status = 301
+
+[[redirects]]
+  from = "/blog_6-19-22.html"
+  to = "/blog/npcs"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-2-22.html"
+  to = "/blog/random-dungeon-generation"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-16-22.html"
+  to = "/blog/variety-in-enemies"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-31-22.html"
+  to = "/blog/boss-fights"
+  status = 301
+
+[[redirects]]
+  from = "/blog_8-14-22.html"
+  to = "/blog/demo-is-live"
+  status = 301
+
+[[redirects]]
+  from = "/blog_9-02-22.html"
+  to = "/blog/side-project-fishing-game"
+  status = 301
+
+[[redirects]]
+  from = "/blog_9-24-22.html"
+  to = "/blog/fishing-game-updates"
+  status = 301
+
+[[redirects]]
+  from = "/blog_10-12-22.html"
+  to = "/blog/fishing-village-is-complete"
+  status = 301
+
+[[redirects]]
+  from = "/blog_11-05-22.html"
+  to = "/blog/learning-fps-skills"
+  status = 301
+
+[[redirects]]
+  from = "/blog_12-05-22.html"
+  to = "/blog/starting-on-my-fps"
+  status = 301
+
+[[redirects]]
+  from = "/blog_12-29-22.html"
+  to = "/blog/recoil-and-particle-effects"
+  status = 301
+
+[[redirects]]
+  from = "/blog_1-14-23.html"
+  to = "/blog/weapon-handling-101"
+  status = 301
+
+[[redirects]]
+  from = "/blog_1-29-23.html"
+  to = "/blog/gun-sounds-and-enemy-ai"
+  status = 301
+
+[[redirects]]
+  from = "/blog_2-26-23.html"
+  to = "/blog/enums-interfaces-and-state-machines"
+  status = 301
+
+[[redirects]]
+  from = "/blog_3-27-23.html"
+  to = "/blog/enemy-patrolling"
+  status = 301
+
+[[redirects]]
+  from = "/blog_4-18-23.html"
+  to = "/blog/arms"
+  status = 301
+
+[[redirects]]
+  from = "/blog_5-6-23.html"
+  to = "/blog/pistol-animations-and-more-weapon-sounds"
+  status = 301
+
+[[redirects]]
+  from = "/blog_5-26-23.html"
+  to = "/blog/playing-with-a-map"
+  status = 301
+
+[[redirects]]
+  from = "/blog_6-16-23.html"
+  to = "/blog/plans-for-the-summer"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-9-23.html"
+  to = "/blog/gmtk-game-jam-2023"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-28-23.html"
+  to = "/blog/flying-off-the-staircase"
+  status = 301
+
+[[redirects]]
+  from = "/blog_8-18-23.html"
+  to = "/blog/taking-cover"
+  status = 301
+
+[[redirects]]
+  from = "/blog_9-22-23.html"
+  to = "/blog/taking-shape"
+  status = 301
+
+[[redirects]]
+  from = "/blog_11-5-23.html"
+  to = "/blog/generating-levels"
+  status = 301
+
+[[redirects]]
+  from = "/blog_12-21-23.html"
+  to = "/blog/pickups-and-a-web-app"
+  status = 301
+
+[[redirects]]
+  from = "/blog_2-1-24.html"
+  to = "/blog/first-release-of-corridors"
+  status = 301
+
+[[redirects]]
+  from = "/blog_3-28-24.html"
+  to = "/blog/progress-report"
+  status = 301
+
+[[redirects]]
+  from = "/blog_7-14-24.html"
+  to = "/blog/checking-back-in"
+  status = 301
+
+[[redirects]]
+  from = "/blog_current.html"
+  to = "/blog/catacombs-and-some-thoughts"
+  status = 301
+
+[[redirects]]
+  from = "/archive.html"
+  to = "/blog"
+  status = 301
