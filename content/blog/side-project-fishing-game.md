@@ -1,7 +1,7 @@
 ---
 title: "Side Project: Fishing Game 🎣"
 date: 2022-09-02
-description: "TODO-JOSH"
+description: "I'm pretty ecstatic to be at a place where I have a working demo for my main 2D game that I've been working on."
 draft: false
 ---
 

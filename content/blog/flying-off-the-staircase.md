@@ -1,7 +1,7 @@
 ---
 title: "Flying Off the Staircase"
 date: 2023-07-28
-description: "TODO-JOSH"
+description: "As promised, I’m now going to revisit the FPS game and go over some of the progress I’ve made there."
 draft: false
 ---
 

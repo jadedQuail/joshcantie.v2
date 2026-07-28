@@ -1,7 +1,7 @@
 ---
 title: "Taking Shape"
 date: 2023-09-22
-description: "TODO-JOSH"
+description: "I have finally returned to the blog! Although I have not blogged as much as I had originally intended to, I have been working a lot in the background."
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Enums, Interfaces, and State Machines"
 date: 2023-02-26
-description: "TODO-JOSH"
+description: "I’ve been putting some more work into my enemy AI in my game. Once again, I’m largely following the work of The Kiwi Coder (who has become one of my favorite Unity content creators, especially since he’s personally…"
 draft: false
 ---
 

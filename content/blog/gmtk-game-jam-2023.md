@@ -1,7 +1,7 @@
 ---
 title: "GMTK Game Jam 2023"
 date: 2023-07-09
-description: "TODO-JOSH"
+description: "This weekend I participated in GMTK's 2023 Game Jam, which was an absolute blast. This is the third game jam I have been to, but the first one I just sorta hung out and talked to people and the second one I only…"
 draft: false
 ---
 

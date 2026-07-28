@@ -1,7 +1,7 @@
 ---
 title: "Smooth Gameplay"
 date: 2022-05-18
-description: "TODO-JOSH"
+description: "When I first started making this game, I had two learning priorities for myself. First, I wanted to make something that was more than just a \"demo\" to see what it's like to put a full game together; second, I wanted the…"
 draft: false
 ---
 

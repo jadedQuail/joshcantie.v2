@@ -1,7 +1,7 @@
 ---
 title: "Putting Pieces Together in Unity"
 date: 2020-07-07
-description: "TODO-JOSH"
+description: "The time between posts was longer for this one because I went on a trip to a friend's lakehouse."
 draft: false
 ---
 

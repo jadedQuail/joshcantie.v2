@@ -1,7 +1,7 @@
 ---
 title: "Demo is Live!"
 date: 2022-08-14
-description: "TODO-JOSH"
+description: "I finally have a demo of my game, ready to be played in your browser right now! Just click the image below here, and you'll be taken to a link where you can give it a try."
 draft: false
 ---
 

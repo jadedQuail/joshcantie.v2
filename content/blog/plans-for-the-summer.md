@@ -1,7 +1,7 @@
 ---
 title: "Plans for the Summer"
 date: 2023-06-16
-description: "TODO-JOSH"
+description: "I’ve finished up my class for the semester, and I now have some extra time this summer to dig into some more game development."
 draft: false
 ---
 

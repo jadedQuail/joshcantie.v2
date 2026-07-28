@@ -1,7 +1,7 @@
 ---
 title: "Playing with a Map"
 date: 2023-05-26
-description: "TODO-JOSH"
+description: "We’re finally cooking with gas! Now that I have a bunch of core pieces of my game setup, I’ve moved on to putting together a map."
 draft: false
 ---
 

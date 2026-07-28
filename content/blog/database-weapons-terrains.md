@@ -1,7 +1,7 @@
 ---
 title: "Database, Weapons, Terrains"
 date: 2020-08-06
-description: "TODO-JOSH"
+description: "Sorry for the long length of time between posts! I've done a lot in the past month, and a lot of my time was occupied because I am moving to Chicago in the next two weeks, so there has been a lot of preparation…"
 draft: false
 ---
 

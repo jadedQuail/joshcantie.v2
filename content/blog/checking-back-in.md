@@ -1,7 +1,7 @@
 ---
 title: "Checking Back In"
 date: 2024-07-14
-description: "TODO-JOSH"
+description: "I am back for a record third post in a row where I apologize for the delay in time between posts!"
 draft: false
 ---
 

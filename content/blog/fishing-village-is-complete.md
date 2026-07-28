@@ -1,7 +1,7 @@
 ---
 title: "Fishing Village is Complete!"
 date: 2022-10-12
-description: "TODO-JOSH"
+description: "Very happy to say that I am finished with my fishing game, which is called Fishing Village."
 draft: false
 ---
 

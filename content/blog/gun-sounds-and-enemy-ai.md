@@ -1,7 +1,7 @@
 ---
 title: "Gun Sounds and Enemy AI"
 date: 2023-01-29
-description: "TODO-JOSH"
+description: "Since my last post, I have worked on two things: giving the weapons sound, and laying the groundwork to have functioning and responsive enemies."
 draft: false
 ---
 

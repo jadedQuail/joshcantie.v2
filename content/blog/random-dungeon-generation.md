@@ -1,7 +1,7 @@
 ---
 title: "Random Dungeon Generation"
 date: 2022-07-02
-description: "TODO-JOSH"
+description: "One of the new concepts I took a crack at with this game was doing some random dungeon generation."
 draft: false
 ---
 

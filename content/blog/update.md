@@ -1,7 +1,7 @@
 ---
 title: "Update"
 date: 2021-01-17
-description: "TODO-JOSH"
+description: "I apologize for the long delay, I've been very busy with various things and blogging got away from me."
 draft: false
 ---
 

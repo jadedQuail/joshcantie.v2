@@ -1,7 +1,7 @@
 ---
 title: "Particle Trails and Shopping"
 date: 2020-09-13
-description: "TODO-JOSH"
+description: "I've made some good progress since my last post. I've managed to get some particle trails going that follow the player's movement; when the player swings, spins, or speed boosts, you can see a blue trail following the motion."
 draft: false
 ---
 

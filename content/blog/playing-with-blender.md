@@ -1,7 +1,7 @@
 ---
 title: "Playing with Blender"
 date: 2020-06-27
-description: "TODO-JOSH"
+description: "Over the last few days I've been familiarizing myself with the basics of Blender. I watched and followed a few tutorials of Grant Abbitt, whose videos are absolutely brilliant (If you're looking to learn about Blender…"
 draft: false
 ---
 

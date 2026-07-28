@@ -1,7 +1,7 @@
 ---
 title: "Boss Fights"
 date: 2022-07-31
-description: "TODO-JOSH"
+description: "Happy to say that after a lot of experimentation, I now have a \"boss\" enemy to fight in my game."
 draft: false
 ---
 

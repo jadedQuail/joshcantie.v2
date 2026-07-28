@@ -1,7 +1,7 @@
 ---
 title: "Pistol Animations and More Weapon Sounds"
 date: 2023-05-06
-description: "TODO-JOSH"
+description: "The last couple of weeks have been busy for me, but I still found some time to work on my FPS."
 draft: false
 ---
 

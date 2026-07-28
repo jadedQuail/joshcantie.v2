@@ -1,7 +1,7 @@
 ---
 title: "Fishing Game Updates"
 date: 2022-09-24
-description: "TODO-JOSH"
+description: "Just poppin' in for a quick update, as I'm currently hard at work on this game, school, and work."
 draft: false
 ---
 

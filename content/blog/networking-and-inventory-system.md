@@ -1,7 +1,7 @@
 ---
 title: "Networking and Inventory System"
 date: 2020-08-27
-description: "TODO-JOSH"
+description: "Over the last few weeks I have been working on a few things, mainly a new inventory system for my Unity game and a new class on Udemy."
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Arms!"
 date: 2023-04-18
-description: "TODO-JOSH"
+description: "The day has finally arrived: The player in my FPS game is no longer possessing his gun with non-existent hands, and instead I now have two arms that hold the weapons and animate along with them!"
 draft: false
 ---
 

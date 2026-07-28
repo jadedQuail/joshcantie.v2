@@ -1,7 +1,7 @@
 ---
 title: "Updates and New 2D Game"
 date: 2022-05-03
-description: "TODO-JOSH"
+description: "Back to the blog! Although I haven't made a post here in a while, I have been very busy in the last year with programming."
 draft: false
 ---
 

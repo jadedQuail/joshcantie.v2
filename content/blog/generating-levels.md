@@ -1,7 +1,7 @@
 ---
 title: "Generating Levels"
 date: 2023-11-05
-description: "TODO-JOSH"
+description: "I am back again for another post! I have been making steady progress in my game, and I think I am nearly done with the overall structure of the gameplay experience."
 draft: false
 ---
 

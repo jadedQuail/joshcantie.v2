@@ -1,7 +1,7 @@
 ---
 title: "Simple Frogger"
 date: 2021-03-04
-description: "TODO-JOSH"
+description: "I was poking around some old Unity files on my computer and I totally forgot that I had started a simple 2D project a few months ago."
 draft: false
 ---
 

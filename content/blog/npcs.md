@@ -1,7 +1,7 @@
 ---
 title: "NPCs"
 date: 2022-06-19
-description: "TODO-JOSH"
+description: "Quick blog post for today! One of the systems in my game that I worked hard on was creating dialogue interactions with NPCs."
 draft: false
 ---
 

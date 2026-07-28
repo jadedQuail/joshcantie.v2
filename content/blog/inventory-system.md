@@ -1,7 +1,7 @@
 ---
 title: "Inventory System"
 date: 2022-06-08
-description: "TODO-JOSH"
+description: "One of the most challenging but rewarding things to put into my most recent game was a drag-and-drop inventory system."
 draft: false
 ---
 

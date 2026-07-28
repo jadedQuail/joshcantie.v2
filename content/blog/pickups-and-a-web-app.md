@@ -1,7 +1,7 @@
 ---
 title: "Pickups and a Web App"
 date: 2023-12-21
-description: "TODO-JOSH"
+description: "I have been busy plugging away at some things with my game, but a lot of the changes are not quite as glamorous as things I have shown in previous posts."
 draft: false
 ---
 

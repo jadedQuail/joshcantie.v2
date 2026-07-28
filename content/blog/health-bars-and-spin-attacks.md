@@ -1,7 +1,7 @@
 ---
 title: "Health Bars and Spin Attacks"
 date: 2020-07-13
-description: "TODO-JOSH"
+description: "Over the last few days I've been working on adding more types of attacks into my game. I have to admit, I probably did not choose the easiest combat system for someone who is just starting to get their feet wet in 3D…"
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Variety in Enemies"
 date: 2022-07-16
-description: "TODO-JOSH"
+description: "I initially started this game with the goal of \"going further\" with a personal project and seeing what it's like to make a \"big\" game (in my world, at least 😄)."
 draft: false
 ---
 

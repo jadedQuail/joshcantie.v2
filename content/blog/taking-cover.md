@@ -1,7 +1,7 @@
 ---
 title: "Taking Cover"
 date: 2023-08-18
-description: "TODO-JOSH"
+description: "Sooooo I’ve pivoted again! I decided that while I love designing maps – and I feel like I have learned a lot through building the map I mentioned in my last post – I think it’s more important for me to focus on…"
 draft: false
 ---
 

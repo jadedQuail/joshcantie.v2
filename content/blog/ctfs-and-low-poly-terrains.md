@@ -1,7 +1,7 @@
 ---
 title: "CTFs and Low-Poly Terrains"
 date: 2020-08-09
-description: "TODO-JOSH"
+description: "This weekend I had the pleasure of playing OpenSOC, a DFIR challenge hosted by Recon InfoSec, where teams hunt down various threats and \"capture flags.\""
 draft: false
 ---
 

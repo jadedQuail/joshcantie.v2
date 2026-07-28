@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2020-06-23
-description: "TODO-JOSH"
+description: "Tonight is the first night that this site goes live. I've decided to create this blog and website to both keep track of the various tech projects I do and to give myself something to look back at in the future."
 draft: false
 ---
 

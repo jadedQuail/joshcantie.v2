@@ -1,7 +1,7 @@
 ---
 title: "HUD Improvements"
 date: 2020-09-01
-description: "TODO-JOSH"
+description: "Howdy folks. I can't believe it's already September! I have this weird thing with Covid where I simultaneously perceive time as going too fast and too slow at the same time... basically I can't wait to get out of the…"
 draft: false
 ---
 

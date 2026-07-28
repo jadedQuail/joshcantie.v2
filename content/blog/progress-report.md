@@ -1,7 +1,7 @@
 ---
 title: "Progress Report"
 date: 2024-03-28
-description: "TODO-JOSH"
+description: "Back again. Sorry, going to apologize once again for the longer-than-planned delay on making a blog post."
 draft: false
 ---
 

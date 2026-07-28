@@ -1,7 +1,7 @@
 ---
 title: "Enemy Patrolling"
 date: 2023-03-27
-description: "TODO-JOSH"
+description: "Been a busy month for sure, but I’ve still found some time to work on my FPS game. I’ve created a new state for the AI, which I’ve called “patrolling”; in this state, the enemy AI will walk a path consisting of several…"
 draft: false
 ---
 

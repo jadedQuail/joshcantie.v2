@@ -1,7 +1,7 @@
 ---
 title: "Catacombs and Some Thoughts"
 date: 2026-05-20
-description: "TODO-JOSH"
+description: "I've been a software engineer in industry for just shy of two years now, and I'm still living in Columbus."
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Weapon Handling 101"
 date: 2023-01-14
-description: "TODO-JOSH"
+description: "Spent most of my time over the last few weeks improving how the gun handles for the player."
 draft: false
 ---
 

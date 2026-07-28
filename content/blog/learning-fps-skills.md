@@ -1,7 +1,7 @@
 ---
 title: "Learning FPS Skills"
 date: 2022-11-05
-description: "TODO-JOSH"
+description: "I've been spending the last couple of weeks doing another one of James Doyle's incredible tutorial series in preparation for creating an FPS game (Also credit to Kenney for use of his SciFi pack in this tutorial series!)."
 draft: false
 ---
 

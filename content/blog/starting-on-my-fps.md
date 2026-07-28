@@ -1,7 +1,7 @@
 ---
 title: "Starting on my FPS"
 date: 2022-12-05
-description: "TODO-JOSH"
+description: "Sorry for such a long delay in posts! I've not had as much time in the last month for a few reasons, such as preparing for a final exam, holidays, and my second go-around with Covid-19."
 draft: false
 ---
 

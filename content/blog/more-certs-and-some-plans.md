@@ -1,7 +1,7 @@
 ---
 title: "More Certs and Some Plans"
 date: 2021-02-28
-description: "TODO-JOSH"
+description: "Just thought I would check in again. I've been taking a break from game development recently and I've leaned into studying for IT certifications."
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "A Few Updates"
 date: 2021-03-21
-description: "TODO-JOSH"
+description: "So unfortunately after some poking around, I've decided that the FreeNAS dream is dead. I attempted to set up my laptop by my router and turn it into a NAS device, but I was really struggling with working with the…"
 draft: false
 ---
 

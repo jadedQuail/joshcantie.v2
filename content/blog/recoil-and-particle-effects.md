@@ -1,7 +1,7 @@
 ---
 title: "Recoil and Particle Effects"
 date: 2022-12-29
-description: "TODO-JOSH"
+description: "The number one thing I've learned in the last month is that I really don't know much about 3D game development!"
 draft: false
 ---
 

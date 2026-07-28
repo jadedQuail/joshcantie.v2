@@ -1,7 +1,7 @@
 ---
 title: "First Release of Corridors"
 date: 2024-02-01
-description: "TODO-JOSH"
+description: "I'm still here! Sorry for the long delay between blog posts, but I have been really locked in trying to get a first build of my game up on the site for people to play."
 draft: false
 ---
 
