@@ -26,19 +26,19 @@ useSeoMeta({
   <article>
     <NuxtLink
       to="/blog"
-      class="text-lagoon decoration-lagoon/40 hover:decoration-lagoon text-sm underline decoration-1 underline-offset-4 transition-colors"
+      class="text-mint decoration-mint/40 hover:decoration-mint text-sm underline decoration-1 underline-offset-4 transition-colors"
     >
       &larr; Back to blog
     </NuxtLink>
 
     <header class="mt-8 mb-10">
-      <h1 class="text-sun font-display text-4xl">{{ post!.title }}</h1>
+      <h1 class="text-coral font-display text-4xl">{{ post!.title }}</h1>
       <PostDate :date="post!.date" class="mt-2 block" />
     </header>
 
     <ContentRenderer
       :value="post!"
-      class="prose prose-invert prose-headings:font-display prose-a:text-lagoon prose-a:decoration-lagoon/40 prose-a:hover:decoration-lagoon prose-a:underline-offset-4 max-w-none"
+      class="prose prose-invert prose-headings:font-display prose-a:text-mint prose-a:decoration-mint/40 prose-a:hover:decoration-mint prose-a:underline-offset-4 max-w-none"
     />
   </article>
 </template>

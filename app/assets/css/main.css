@@ -2,12 +2,36 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-  --color-navy: #173f5f;
-  --color-sun: #f6d55c;
-  --color-ember: #ed553b;
-  --color-lagoon: #5fcfc3;
+  --color-graphite: #898989;
+  --color-mist: #d9d9d9;
+  --color-coral: #ff4d4d;
+  --color-mint: #4dffbc;
+  --color-charcoal: #1a1a1a;
+  --color-surface: color-mix(in oklab, var(--color-graphite) 18%, var(--color-charcoal));
+  --color-line: color-mix(in oklab, var(--color-graphite) 45%, var(--color-charcoal));
 
-  --font-display: 'Lato', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Josefin Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-sans:
+    'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.prose {
+  --tw-prose-invert-body: var(--color-mist);
+  --tw-prose-invert-headings: var(--color-coral);
+  --tw-prose-invert-lead: var(--color-mist);
+  --tw-prose-invert-bold: color-mix(in oklab, var(--color-mist) 70%, white);
+  --tw-prose-invert-quotes: var(--color-mist);
+  --tw-prose-invert-quote-borders: var(--color-coral);
+  --tw-prose-invert-captions: var(--color-graphite);
+  --tw-prose-invert-counters: var(--color-coral);
+  --tw-prose-invert-bullets: var(--color-coral);
+  --tw-prose-invert-hr: var(--color-line);
+  --tw-prose-invert-code: var(--color-coral);
+  --tw-prose-invert-pre-code: var(--color-mist);
+  --tw-prose-invert-pre-bg: var(--color-surface);
+  --tw-prose-invert-th-borders: var(--color-line);
+  --tw-prose-invert-td-borders: color-mix(in oklab, var(--color-line) 60%, var(--color-charcoal));
 }
 
 .prose :where(h1, h2, h3, h4, h5, h6) a {

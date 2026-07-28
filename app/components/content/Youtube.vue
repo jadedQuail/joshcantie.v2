@@ -8,7 +8,7 @@ const src = computed(() => `https://www.youtube-nocookie.com/embed/${props.id}`)
 </script>
 
 <template>
-  <div class="border-lagoon/30 my-8 aspect-video overflow-hidden rounded-lg border">
+  <div class="border-line my-8 aspect-video overflow-hidden rounded-lg border">
     <iframe
       :src="src"
       :title="title ?? 'Embedded video'"

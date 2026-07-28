@@ -5,7 +5,14 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxt/fonts'],
+
+  fonts: {
+    families: [
+      { name: 'Josefin Sans', provider: 'google', weights: [400, 600, 700] },
+      { name: 'Lato', provider: 'google', weights: [400, 700], styles: ['normal', 'italic'] },
+    ],
+  },
 
   content: {
     build: {
