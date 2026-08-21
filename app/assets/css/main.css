@@ -2,36 +2,39 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-  --color-graphite: #898989;
-  --color-mist: #d9d9d9;
-  --color-coral: #ff4d4d;
-  --color-mint: #4dffbc;
-  --color-charcoal: #1a1a1a;
-  --color-surface: color-mix(in oklab, var(--color-graphite) 18%, var(--color-charcoal));
-  --color-line: color-mix(in oklab, var(--color-graphite) 45%, var(--color-charcoal));
+  --color-beige: #ddd0c8;
+  --color-ink: #323232;
+  /* Secondary text (dates, captions). Held at 4.5:1 on beige so it stays
+     AA-legible at small sizes rather than drifting into decoration. */
+  --color-muted: #5f5a54;
+  --color-surface: #d2c4ba;
+  --color-line: color-mix(in oklab, var(--color-ink) 22%, var(--color-beige));
 
-  --font-display: 'Josefin Sans', ui-sans-serif, system-ui, sans-serif;
+  /* Single typeface: hierarchy comes from weight, size, and tracking rather
+     than a second family. --font-display stays as its own token so swapping
+     in a display face later is a one-line change. */
   --font-sans:
     'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-display: var(--font-sans);
 }
 
 .prose {
-  --tw-prose-invert-body: var(--color-mist);
-  --tw-prose-invert-headings: var(--color-coral);
-  --tw-prose-invert-lead: var(--color-mist);
-  --tw-prose-invert-bold: color-mix(in oklab, var(--color-mist) 70%, white);
-  --tw-prose-invert-quotes: var(--color-mist);
-  --tw-prose-invert-quote-borders: var(--color-coral);
-  --tw-prose-invert-captions: var(--color-graphite);
-  --tw-prose-invert-counters: var(--color-coral);
-  --tw-prose-invert-bullets: var(--color-coral);
-  --tw-prose-invert-hr: var(--color-line);
-  --tw-prose-invert-code: var(--color-coral);
-  --tw-prose-invert-pre-code: var(--color-mist);
-  --tw-prose-invert-pre-bg: var(--color-surface);
-  --tw-prose-invert-th-borders: var(--color-line);
-  --tw-prose-invert-td-borders: color-mix(in oklab, var(--color-line) 60%, var(--color-charcoal));
+  --tw-prose-body: var(--color-ink);
+  --tw-prose-headings: var(--color-ink);
+  --tw-prose-lead: var(--color-ink);
+  --tw-prose-bold: var(--color-ink);
+  --tw-prose-quotes: var(--color-ink);
+  --tw-prose-quote-borders: var(--color-line);
+  --tw-prose-captions: var(--color-muted);
+  --tw-prose-counters: var(--color-muted);
+  --tw-prose-bullets: var(--color-line);
+  --tw-prose-hr: var(--color-line);
+  --tw-prose-code: var(--color-ink);
+  --tw-prose-pre-code: var(--color-ink);
+  --tw-prose-pre-bg: var(--color-surface);
+  --tw-prose-th-borders: var(--color-line);
+  --tw-prose-td-borders: color-mix(in oklab, var(--color-line) 60%, var(--color-beige));
 }
 
 .prose :where(h1, h2, h3, h4, h5, h6) a {

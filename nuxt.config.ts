@@ -9,7 +9,6 @@ export default defineNuxtConfig({
 
   fonts: {
     families: [
-      { name: 'Josefin Sans', provider: 'google', weights: [400, 600, 700] },
       { name: 'Lato', provider: 'google', weights: [400, 700], styles: ['normal', 'italic'] },
     ],
   },
@@ -17,7 +16,7 @@ export default defineNuxtConfig({
   content: {
     build: {
       markdown: {
-        highlight: { theme: 'github-dark' },
+        highlight: { theme: 'github-light' },
       },
     },
   },
