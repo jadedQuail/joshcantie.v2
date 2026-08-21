@@ -4,6 +4,7 @@
 @theme {
   --color-beige: #ddd0c8;
   --color-ink: #323232;
+  --color-accent: #33406b;
   --color-muted: #5f5a54;
   --color-surface: #d2c4ba;
   --color-line: color-mix(in oklab, var(--color-ink) 22%, var(--color-beige));
@@ -16,7 +17,8 @@
 
 .prose {
   --tw-prose-body: var(--color-ink);
-  --tw-prose-headings: var(--color-ink);
+  --tw-prose-headings: var(--color-accent);
+  --tw-prose-links: var(--color-accent);
   --tw-prose-lead: var(--color-ink);
   --tw-prose-bold: var(--color-ink);
   --tw-prose-quotes: var(--color-ink);

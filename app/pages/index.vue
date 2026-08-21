@@ -3,5 +3,5 @@ definePageMeta({ layout: 'page' })
 </script>
 
 <template>
-  <h1 class="text-ink font-display text-5xl font-normal tracking-tight">Hello World</h1>
+  <h1 class="text-accent font-display text-5xl font-normal tracking-tight">Hello World</h1>
 </template>

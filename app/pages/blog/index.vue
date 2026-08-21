@@ -12,7 +12,7 @@ useSeoMeta({ title: 'Blog' })
 </script>
 
 <template>
-  <h1 class="text-ink font-display mb-10 text-4xl font-normal tracking-tight">Blog</h1>
+  <h1 class="text-accent font-display mb-10 text-4xl font-normal tracking-tight">Blog</h1>
 
   <p v-if="!posts?.length">No posts yet.</p>
 
@@ -21,7 +21,7 @@ useSeoMeta({ title: 'Blog' })
       <h2 class="font-display text-2xl font-bold tracking-tight">
         <NuxtLink
           :to="post.path"
-          class="text-ink decoration-1 underline-offset-4 hover:underline"
+          class="text-accent decoration-1 underline-offset-4 hover:underline"
         >
           {{ post.title }}
         </NuxtLink>
