@@ -18,8 +18,8 @@
 
       <a
         :href="project.url"
-        :target="isExternal(project.url) ? '_blank' : undefined"
-        :rel="isExternal(project.url) ? 'noopener noreferrer' : undefined"
+        target="_blank"
+        rel="noopener noreferrer"
         class="group mt-3 block"
       >
         <img
@@ -46,8 +46,6 @@ const { data: projects } = await useAsyncData('portfolio-index', async () => {
 
   return items.sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id))
 })
-
-const isExternal = (url: string) => /^https?:\/\//.test(url)
 
 useSeoMeta({ title: 'Portfolio' })
 </script>
