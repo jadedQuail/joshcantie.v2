@@ -13,10 +13,7 @@ In terms of personal growth, I explored a few new concepts with this game, one o
 
 If you'd like to play the game in your browser, please click the picture link below, or check out the "Portfolio" tab on this site.
 
-> **Fishing Village — 2D Game**
->
-> [![Fishing Village](/images/fish_thumbnail.png)](/builds/fishing_village/game.html)
->
-> A game about a happy little fishing village. Can you catch all the different species the town has to offer?
+::project-link{slug="fishing-village"}
+::
 
 —Josh

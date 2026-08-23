@@ -15,11 +15,8 @@ As is tradition for me, I bit off more than I could chew in my head and I had to
 
 I have my build for this game jam posted here on my site (though I am cheating, I actually added the sound effects after time was up, so this version posted on my site here has a little more pizzazz). The art for this game comes from Kenney's [Pixel Line Platformer](https://kenney.nl/assets/pixel-line-platformer) tileset, which looks very nice and was easy to use. You can go to the "Portfolio" tab of this website or click the link below in this blog post to play the game:
 
-> **Reverse Rabbit — 2D Game**
->
-> [![Reverse Rabbit](/images/rr-thumbnail.png)](/builds/reverse_rabbit/game.html)
->
-> A little demo I made for GMTK's Game Jam 2023, to showcase platformer mechanics. Do not press the red button!
+::project-link{slug="reverse-rabbit"}
+::
 
 It's been a bit since my last blog post, and I've made a ton of progress on my FPS game (built a whole stage). I also have some more technical notes from what I learned during this game jam. I'm going to save both of these for some later blog posts, and I plan on posting more frequently again here. Until next time!
 

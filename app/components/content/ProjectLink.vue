@@ -1,32 +1,37 @@
 <template>
-  <figure v-if="project" class="my-8">
+  <div
+    v-if="project"
+    class="border-line bg-surface not-prose my-8 flex flex-col overflow-hidden rounded-lg border"
+  >
+    <div class="px-4 pt-4">
+      <h2 class="font-display text-accent text-xl font-bold tracking-tight">
+        {{ project.title }}
+      </h2>
+      <p class="text-muted text-sm">{{ project.category }}</p>
+    </div>
+
     <a
       :href="project.url"
       target="_blank"
       rel="noopener noreferrer"
-      class="group block"
+      class="group mt-3 block"
     >
       <img
         :src="project.thumbnail"
         :alt="project.title"
         loading="lazy"
-        class="border-line h-auto w-full overflow-hidden rounded-lg border transition-opacity group-hover:opacity-70"
+        class="border-line aspect-[5/3] w-full border-y object-cover transition-opacity group-hover:opacity-70"
       />
     </a>
-    <figcaption class="text-muted mt-2 text-sm">
-      {{ caption ?? `Play ${project.title}` }}
-    </figcaption>
-  </figure>
+
+    <p class="px-4 pt-3 pb-4 text-sm">{{ project.description }}</p>
+  </div>
 </template>
 
 <script setup lang="ts">
-const props = withDefaults(
-  defineProps<{
-    slug: string
-    caption?: string
-  }>(),
-  { caption: undefined },
-)
+const props = defineProps<{
+  slug: string
+}>()
 
 const { data: project } = await useAsyncData(`project-link-${props.slug}`, () =>
   queryCollection('portfolio').path(`/portfolio/${props.slug}`).first(),
