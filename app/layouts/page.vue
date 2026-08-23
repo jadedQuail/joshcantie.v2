@@ -23,6 +23,7 @@
     <footer class="border-line border-t">
       <div class="text-muted mx-auto max-w-5xl px-6 py-6 text-sm">
         <!-- TODO-JOSH: social/contact links go here. -->
+        <!-- TODO-JOSH: Make an itch build of Catacombs and link to Portfolio -->
         &copy; {{ year }} Josh Cantie
       </div>
     </footer>
