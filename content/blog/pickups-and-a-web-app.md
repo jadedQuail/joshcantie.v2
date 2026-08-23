@@ -11,11 +11,14 @@ I have been busy plugging away at some things with my game, but a lot of the cha
 
 To work towards making my game a complete and playable experience, I've added a few pickups, such as ammo drops and health packs. I'm also getting prepped to let the player carry two weapons, so I revisted how weapon pickups look and feel. To make weapon pickups feel better, I made a quick "pickup" animation where the player lifts up a weapon after grabbing it from a gun rack. It looks pretty simple, but it gave me quite the headache to implement (I discovered I was not consistent with what I was keyframing across different animations, which caused jerkiness and inconsistencies in transitions between animations. Luckily, that's all been resolved!). Check out the gifs below to see quick little snippets of these additions (in order: weapon pickup animation, ammo pickup, health pickup).
 
-![Weapon pickup](/images/weapon-pickup.gif)
+::clip{src-path="/images/weapon-pickup.mp4" alt="Weapon pickup"}
+::
 
-![Ammo pickup](/images/ammo-pickup.gif)
+::clip{src-path="/images/ammo-pickup.mp4" alt="Ammo pickup"}
+::
 
-![Health pickup](/images/health-pickup.gif)
+::clip{src-path="/images/health-pickup.mp4" alt="Health pickup"}
+::
 
 In addition to working on my game, I also just finished up my winter semester at Oregon State and I have deployed my group's semester-long project to the web, which you can check out by clicking the link below (or the equivalent link located on the Portfolio page). This was a databases class, so our project involved creating a SQL database and connecting it to a web application that can perform CRUD operations on the database. I really enjoyed this class because instead of just going through a long list of content and giving us videos to hold our hand, the professor instead made us put our learning into action by working on one giant project all semester, which I find very effective for learning (the phrase "use it or lose it" describes my learning style to a tee).
 

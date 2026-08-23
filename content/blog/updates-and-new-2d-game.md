@@ -13,7 +13,8 @@ There's a lot of stuff in this game, too much for one update, so I am going to m
 
 As a little sneak-peak, see the gif below - I'm proud of how lively the spawn area is in the game!
 
-![Spawn area](/images/spawn_area.gif)
+::clip{src-path="/images/spawn_area.mp4" alt="Spawn area"}
+::
 
 I'm also very happy to say that I've gone back to school to finally get my bachelor's degree in Computer Science. I'm currently enrolled in a post-baccalaureate CS program at Oregon State University - Go Beavs! - where I'm able to take rigorous computer science courses in a well-established online program. I'm able to take the courses while working full-time, so it works very well for me right now. I'm 2½ courses through the program so far, and it's been a lot of fun, and I've learned a lot.
 

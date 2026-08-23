@@ -13,13 +13,11 @@ First off, to report on what I’ve been working on the last couple of weeks: On
 
 I found a really great tutorial series online by a new YouTuber I hadn’t before checked out named [Dave / GameDevelopment](https://www.youtube.com/@davegamedevelopment). He has a pretty effective [first person movement](https://www.youtube.com/watch?v=f473C43s8nE) tutorial that I followed and implemented into my game. Specifically, he moves his player using [Rigidbody.AddForce](https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html); this means that when you switch directions (midair or otherwise), you’re player doesn’t just change velocity to the other direction on a dime, but instead slowly switches directions as the force impacts the velocity of the player. It feels much more organic. See below for a “before and after” of what movement looks like in my game with this implementation.
 
-![The player switches movement from left to right instantly.](/images/vel-jump.gif)
+::clip{src-path="/images/vel-jump.mp4" alt="The player switches movement from left to right instantly." caption="The player switches movement from left to right instantly."}
+::
 
-*The player switches movement from left to right instantly.*
-
-![The player gradually moves from left to right as a new force is applied.](/images/force-jump.gif)
-
-*The player gradually moves from left to right as a new force is applied.*
+::clip{src-path="/images/force-jump.mp4" alt="The player gradually moves from left to right as a new force is applied." caption="The player gradually moves from left to right as a new force is applied."}
+::
 
 Honestly, I was so intrigued by Dave’s movement system that I went down a rabbit hole and started following several of his tutorials to learn more about how he moves his player controller. I love the way he organizes his code and I found myself watching his tutorials on jumping, running, sliding, and wall running. So while I don’t have much more to report on in my own game, I really think I learned a ton since my last post!
 

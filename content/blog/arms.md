@@ -13,7 +13,8 @@ At first, I wanted to try creating a fully animating character model for the pla
 
 So instead, I used the same character model I had been using for the enemy, and I opened up its .fbx file in [Blender](https://www.blender.org/) and ripped off its arms! (Or rather, I ripped the body off the arms). I created two models, one for the left and right arms respectively, so I could more easily manipulate the two as separate objects. In Unity, I actually didn’t have just one pair of arms, but instead a pair of arms for each separate weapon. By making the arms a child object of the weapon, it would cause them to inherit a lot of the other things occurring on the weapon, i.e. when the weapon experiences recoil, the arms would “kick up” as the weapon kicks up. In short, it makes more sense to pair the arms with the weapon instead of the player’s body, since the arms really follow what the weapon does.
 
-![Arms](/images/arms.gif)
+::clip{src-path="/images/arms.mp4" alt="Arms"}
+::
 
 From there, it was pretty simple to animate the arms to follow along with a weapon’s animations. When the weapon would be lowered, raised, reloaded, etc., I moved the arms to new positions on the same keyframes where the weapon moved; this created simple animations that look great for this low-poly world. One weapon that I still have to work on is the pistol, since it’s smaller than a rifle and the current arm models have hands that are too clunky to make holding a pistol look good. I’m going to experiment in Blender with curling the fingers on the arms models, so that way the pair of arms attached to the pistol will be easier to work with and will look more realistic.
 

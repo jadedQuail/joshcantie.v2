@@ -36,13 +36,11 @@ navMeshAgent.SetPath(path);
 
 The call to CalculatePath() is synchronous, and it calculates a route for the nav mesh agent while it’s still moving. The agent will keep moving on its path, and only change paths once the calculation is complete, so it will move fluidly without pausing or stuttering. You can see the difference between the two below:
 
-![Nav mesh agent stutters while calculating path.](/images/nma_stutter.gif)
+::clip{src-path="/images/nma_stutter.mp4" alt="Nav mesh agent stutters while calculating path." caption="Nav mesh agent stutters while calculating path."}
+::
 
-*Nav mesh agent stutters while calculating path.*
-
-![Nav mesh agent moves fluidly, calculates path while moving.](/images/nma_working.gif)
-
-*Nav mesh agent moves fluidly, calculates path while moving.*
+::clip{src-path="/images/nma_working.mp4" alt="Nav mesh agent moves fluidly, calculates path while moving." caption="Nav mesh agent moves fluidly, calculates path while moving."}
+::
 
 The one concern to think about going forward is whether the CalculatePath() calls will cause frame rate issues. I plan on loading this map up with a ton of enemy AI in the future to see what happens, so that will be telling!
 

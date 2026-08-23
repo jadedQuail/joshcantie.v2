@@ -11,12 +11,14 @@ So at this point, I've become fairly familiar with the process of making an anim
 
 I managed to get my game at a point where the player can go up to an enemy, swing at it a few times, and then it falls over and dies. In the past I've used other people's models and animations from the asset store, and I've come to appreciate how clean those assets were; it's really hard to make your animations flow smoothly when you make them yourself! But, I think I managed to get them to a point that I'm satisfied with.
 
-![Combat](/images/combat.gif)
+::clip{src-path="/images/combat.mp4" alt="Combat"}
+::
 
 Just to make sure I'm giving credit where it's due, I am drawing heavily from a great Udemy course on intermediate Unity development called ["RPG Core Combat Creator: Learn Intermediate Unity C# Coding"](https://www.udemy.com/course/unityrpg/) by [GameDev.tv](https://www.gamedev.tv/) . The instructors, Ben Tristem, Rick Davidson, and Sam Pattuzzi, do a wonderful job of breaking down the basics of RPG creation. Basically I watch them as a reference point and change the code as I see fit to better match what I'm going for (and I use different assets as well). I encourage you to check them out!
 
 Now to totally change topics: I am really into the video game Rocket League! It's my favorite game of all time, and I've been playing for about 4 years and have logged about 2,000 hours. I'm going to occasionally posts gifs of plays that I'm proud of.
 
-![Backwards goal](/images/backwards_goal.gif)
+::clip{src-path="/images/backwards_goal.mp4" alt="Backwards goal"}
+::
 
 —Josh

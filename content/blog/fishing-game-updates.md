@@ -11,6 +11,7 @@ Just poppin' in for a quick update, as I'm currently hard at work on this game, 
 
 A new thing I learned here was how to use a little bit of physics to get the fish to fly out of the water and land on the player's head. I wanted to make sure that the fish would pop out of the water at a reasonable speed, and also fly out in an "arc" motion, which looks a lot more natural than the fish beelining up above the player. Overall, I am happy with how it looks, and I'm satisfied to see how much quicker making this mini-project has been based on the experience I've gained in the last year or two.
 
-![Catching](/images/catching.gif)
+::clip{src-path="/images/catching.mp4" alt="Catching"}
+::
 
 —Josh

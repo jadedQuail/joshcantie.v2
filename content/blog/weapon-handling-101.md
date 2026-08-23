@@ -13,7 +13,8 @@ The running and reloading are done with animations, but I decided that for the p
 
 Speaking of other parts, I have a shootable NPC in my game, which I got from the [Low Poly Animated People pack by polyperfect](https://assetstore.unity.com/packages/3d/characters/humanoids/low-poly-animated-people-156748) . As you can see below, you can now shoot and kill Santa in my video game. I plan on building on this affront to Christmas by playing around with the other characters in this pack, and hopefully will get some basic enemies and levels designed soon.
 
-![Handling](/images/handling.gif)
+::clip{src-path="/images/handling.mp4" alt="Handling"}
+::
 
 Stay tuned!
 

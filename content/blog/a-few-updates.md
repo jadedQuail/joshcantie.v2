@@ -15,7 +15,8 @@ I also was planning on prepping a tank to get a new betta fish, but prepping don
 
 However, I did have a nice little start to my unnamed 2D RPG game that I do want to focus on. I got some assets, started the project, and got my character moving (and the camera following him). Not much, but a start. I'm using the same main character as my Fruit N Shoot game because it's an easy spritesheet to work with and I like him :)
 
-![2dsample](/images/2dsample.gif)
+::clip{src-path="/images/2dsample.mp4" alt="2dsample"}
+::
 
 I'm planning on re-focusing on my projects and I will hopefully have more to report in the weeks to come!
 

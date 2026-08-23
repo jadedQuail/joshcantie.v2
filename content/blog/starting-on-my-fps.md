@@ -13,6 +13,7 @@ Honestly, I am definitely realizing that I am a lot more comfortable with 2D dev
 
 I found a few great asset packs to work with, too (it still never ceases to amaze me how many cheap or free assets exist out there to play with). Right now I want to get some basics down for the player, such as a gun that fires properly and feels like it has a little life to it, and then I will try to detail and polish those areas. For now, though, I definitely feel like I've picked a project that is pretty exciting for me and offers a lot for me to learn.
 
-![Fps hopping](/images/fps_hopping.gif)
+::clip{src-path="/images/fps_hopping.mp4" alt="Fps hopping"}
+::
 
 —Josh

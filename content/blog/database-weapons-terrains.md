@@ -9,7 +9,8 @@ Sorry for the long length of time between posts! I've done a lot in the past mon
 
 I've made some good progress on my game! I've removed health bars temporarily, but I've added weapons (which will display text when hovered over) and now enemies will spawn within certain zones. The player can walk up to a weapon, pick it up, and start slashing at bad guys. I've also added some basic UI elements, just as a start. I also started to work on a surrounding terrain for the game's map (I am very, very not good at using Unity's terrain tools, so that was a struggle), which right now looks very plain but I plan on turning it into a green, low-poly terrain using Blender.
 
-![Terrain](/images/terrain.gif)
+::clip{src-path="/images/terrain.mp4" alt="Terrain"}
+::
 
 I also started and completed another project in the past month. Recently I've gotten back into collecting Pokemon cards, something I did very casually as a child. I got all my cards together (and bought some new ones!) and decided to enter them all into an Excel document. I recorded the information as shown below, cataloging each card's stats, year, attributes, and value. I thought that these older cards would be pretty valuable, but that was not the case. Oh well.
 
