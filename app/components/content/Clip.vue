@@ -1,3 +1,22 @@
+<template>
+  <figure class="my-8">
+    <video
+      ref="videoPlayer"
+      :src="props.srcPath"
+      :aria-label="props.alt"
+      :controls="reducedMotion"
+      class="border-line h-auto w-full overflow-hidden rounded-lg border"
+      muted
+      loop
+      playsinline
+      preload="none"
+    />
+    <figcaption v-if="props.caption" class="text-muted mt-2 text-sm">
+      {{ props.caption }}
+    </figcaption>
+  </figure>
+</template>
+
 <script setup lang="ts">
 const props = withDefaults(
   defineProps<{
@@ -32,22 +51,3 @@ onMounted(() => {
   onBeforeUnmount(() => observer.disconnect())
 })
 </script>
-
-<template>
-  <figure class="my-8">
-    <video
-      ref="videoPlayer"
-      :src="props.srcPath"
-      :aria-label="props.alt"
-      :controls="reducedMotion"
-      class="border-line h-auto w-full overflow-hidden rounded-lg border"
-      muted
-      loop
-      playsinline
-      preload="none"
-    />
-    <figcaption v-if="props.caption" class="text-muted mt-2 text-sm">
-      {{ props.caption }}
-    </figcaption>
-  </figure>
-</template>

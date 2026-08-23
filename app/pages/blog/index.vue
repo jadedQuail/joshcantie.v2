@@ -1,16 +1,3 @@
-<script setup lang="ts">
-definePageMeta({ layout: 'page' })
-
-const { data: posts } = await useAsyncData('blog-index', () =>
-  queryCollection('blog')
-    .where('draft', '=', false)
-    .order('date', 'DESC')
-    .all(),
-)
-
-useSeoMeta({ title: 'Blog' })
-</script>
-
 <template>
   <h1 class="text-accent font-display mb-10 text-4xl font-normal tracking-tight">Blog</h1>
 
@@ -33,3 +20,16 @@ useSeoMeta({ title: 'Blog' })
     </li>
   </ul>
 </template>
+
+<script setup lang="ts">
+definePageMeta({ layout: 'page' })
+
+const { data: posts } = await useAsyncData('blog-index', () =>
+  queryCollection('blog')
+    .where('draft', '=', false)
+    .order('date', 'DESC')
+    .all(),
+)
+
+useSeoMeta({ title: 'Blog' })
+</script>

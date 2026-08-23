@@ -1,12 +1,3 @@
-<script setup lang="ts">
-const props = defineProps<{
-  id: string
-  title?: string
-}>()
-
-const src = computed(() => `https://www.youtube-nocookie.com/embed/${props.id}`)
-</script>
-
 <template>
   <div class="border-line my-8 aspect-video overflow-hidden rounded-lg border">
     <iframe
@@ -20,3 +11,12 @@ const src = computed(() => `https://www.youtube-nocookie.com/embed/${props.id}`)
     />
   </div>
 </template>
+
+<script setup lang="ts">
+const props = defineProps<{
+  id: string
+  title?: string
+}>()
+
+const src = computed(() => `https://www.youtube-nocookie.com/embed/${props.id}`)
+</script>

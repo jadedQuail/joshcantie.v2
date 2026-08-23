@@ -1,27 +1,3 @@
-<script setup lang="ts">
-definePageMeta({ layout: 'page' })
-
-const route = useRoute()
-
-const { data: post } = await useAsyncData(`blog-${route.path}`, () =>
-  queryCollection('blog').path(route.path).first(),
-)
-
-// Drafts are excluded from the index, so treat them as missing here too.
-if (!post.value || post.value.draft) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'Post not found',
-    fatal: true,
-  })
-}
-
-useSeoMeta({
-  title: post.value.title,
-  description: post.value.description,
-})
-</script>
-
 <template>
   <article>
     <NuxtLink
@@ -42,3 +18,26 @@ useSeoMeta({
     />
   </article>
 </template>
+
+<script setup lang="ts">
+definePageMeta({ layout: 'page' })
+
+const route = useRoute()
+
+const { data: post } = await useAsyncData(`blog-${route.path}`, () =>
+  queryCollection('blog').path(route.path).first(),
+)
+
+if (!post.value || post.value.draft) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Post not found',
+    fatal: true,
+  })
+}
+
+useSeoMeta({
+  title: post.value.title,
+  description: post.value.description,
+})
+</script>
