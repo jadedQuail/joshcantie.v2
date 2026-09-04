@@ -12,18 +12,27 @@
         <nav class="flex gap-6 text-sm">
           <NuxtLink to="/blog" class="text-accent underline-offset-4 hover:underline">Blog</NuxtLink>
           <NuxtLink to="/portfolio" class="text-accent underline-offset-4 hover:underline">Portfolio</NuxtLink>
+          <a
+            href="/files/resume_may_25_website.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-accent underline-offset-4 hover:underline"
+          >
+            Resume
+          </a>
         </nav>
       </div>
     </header>
 
-    <main class="mx-auto w-full grow px-6 py-16" :class="main">
+    <main
+      class="mx-auto w-full grow px-6 py-16"
+      :class="[width, { 'flex flex-col justify-center': route.meta.center }]"
+    >
       <slot />
     </main>
 
     <footer class="border-line border-t">
       <div class="text-muted mx-auto max-w-5xl px-6 py-6 text-sm">
-        <!-- TODO-JOSH: social/contact links go here. -->
-        <!-- TODO-JOSH: Make an itch build of Catacombs and link to Portfolio -->
         &copy; {{ year }} Josh Cantie
       </div>
     </footer>
@@ -34,5 +43,5 @@
 const year = new Date().getFullYear()
 
 const route = useRoute()
-const main = computed(() => (route.meta.wide ? 'max-w-5xl' : 'max-w-2xl'))
+const width = computed(() => (route.meta.wide ? 'max-w-5xl' : 'max-w-2xl'))
 </script>
