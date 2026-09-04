@@ -17,11 +17,8 @@ But I'm not judging myself, it's just a step on the journey. I look back at this
 
 Anywho, I've made a new 2D game. It is, once again, a dungeon crawler. I don't know why I've returned to this exact concept several times, but it's just the kind of game that speaks to me. I plan to keep working on this one, but this is the "v1" so to speak, and I wanted to get a version of it out there. Although it is quite simple, it feels more crisp and clean to me than my past games, and I hope to iterate on it as a fun side project. You can click below to play it now, or find it on the Portfolio tab.
 
-> **Catacombs — 2D Game**
->
-> [![Catacombs](/images/fantasy_rpg_thumbnail.png)](/builds/fantasy_rpg/game.html)
->
-> My new 2D RPG game, another dungeon crawler (shocker)! Fight skeletons across several dungeon floors.
+::project-link{slug="catacombs"}
+::
 
 I do have plans to make a new website, this one using a content-management system and a modern web framework. I want to do some more blogging there in the future. Stay tuned! Or don't, I don't think anyone reads this anyways. No worries, I still find it fun. 🤷
 

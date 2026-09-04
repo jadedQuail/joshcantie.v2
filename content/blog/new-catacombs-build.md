@@ -20,10 +20,7 @@ I have made some updates to my game Catacombs (which is just what I'm calling it
 
 At this point in time I am focusing entirely on making combat "feel good", and I won't lie, it's really hard. It make sense when you think about it: every game you play does the "basic gameplay loop" for its respective genre, and on paper they all hit the mark, but the subtleties of the "game feel" are what separates a great game from a terrible one. I keep iterating over-and-over again until I feel it "click", and it's hard because it's part logic but it's mostly just feeling it out. Like I will come up with an idea, try it, and wow - it sucks! I'm hoping I have an a-ha moment, but I thought for now I might as well get another build up. Click below if you want to give it a try!
 
-> **Catacombs — 2D Game**
->
-> [![Catacombs](/images/fantasy_rpg_thumbnail.png)](/builds/fantasy_rpg/game.html)
->
-> My new 2D RPG game, another dungeon crawler (shocker)! Fight skeletons across several dungeon floors.
+::project-link{slug="catacombs"}
+::
 
 —Josh
