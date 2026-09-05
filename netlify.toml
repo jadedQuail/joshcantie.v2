@@ -228,11 +228,58 @@
   status = 301
 
 [[redirects]]
-  from = "/blog_current.html"
+  from = "/blog_5-20-26.html"
   to = "/blog/catacombs-and-some-thoughts"
+  status = 301
+
+[[redirects]]
+  from = "/blog_current.html"
+  to = "/blog/new-catacombs-build"
   status = 301
 
 [[redirects]]
   from = "/archive.html"
   to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio.html"
+  to = "/portfolio"
+  status = 301
+
+# The v1 site hosted playable WebGL builds; those games now live on itch.io.
+
+[[redirects]]
+  from = "/builds/fantasy_rpg/game.html"
+  to = "https://jadedquail.itch.io/catacombs"
+  status = 301
+
+[[redirects]]
+  from = "/builds/fishing_village/game.html"
+  to = "https://jadedquail.itch.io/fishing-village"
+  status = 301
+
+[[redirects]]
+  from = "/builds/frogger/game.html"
+  to = "https://jadedquail.itch.io/simple-frogger"
+  status = 301
+
+[[redirects]]
+  from = "/builds/fruitnshoot/game.html"
+  to = "https://jadedquail.itch.io/fruitnshoot"
+  status = 301
+
+[[redirects]]
+  from = "/builds/reverse_rabbit/game.html"
+  to = "https://jadedquail.itch.io/reverse-rabbit-gmtk-2023"
+  status = 301
+
+[[redirects]]
+  from = "/builds/sunburst_samurai/game.html"
+  to = "https://jadedquail.itch.io/sunburst-samurai"
+  status = 301
+
+[[redirects]]
+  from = "/builds/vault_crawl_demo/game.html"
+  to = "https://jadedquail.itch.io/vault-crawl"
   status = 301
