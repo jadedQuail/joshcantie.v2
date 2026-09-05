@@ -63,7 +63,6 @@ if (!post.value || post.value.draft) {
   })
 }
 
-// Same query as the blog index, so the nav walks the list in the order it shows.
 const { data: neighbors } = await useAsyncData(`blog-neighbors-${route.path}`, async () => {
   const posts = await queryCollection('blog')
     .where('draft', '=', false)
@@ -77,7 +76,6 @@ const { data: neighbors } = await useAsyncData(`blog-neighbors-${route.path}`, a
     return { newer: null, older: null }
   }
 
-  // Posts run newest-first, so the entry before this one is the newer post.
   return {
     newer: posts[index - 1] ?? null,
     older: posts[index + 1] ?? null,
