@@ -5,7 +5,7 @@
       alt="Josh Cantie"
       width="320"
       height="427"
-      class="border-line w-64 shrink-0 border object-cover sm:w-80"
+      class="w-64 shrink-0 object-cover shadow-[8px_8px_0_0_var(--color-accent)] sm:w-80 sm:shadow-[10px_10px_0_0_var(--color-accent)]"
     />
 
     <div class="flex flex-col items-center text-center sm:items-start sm:text-left">
