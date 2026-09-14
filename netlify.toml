@@ -246,6 +246,7 @@
   from = "/portfolio.html"
   to = "/portfolio"
   status = 301
+  force = true
 
 # The v1 site hosted playable WebGL builds; those games now live on itch.io.
 
