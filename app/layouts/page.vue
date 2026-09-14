@@ -9,7 +9,7 @@
           Josh Cantie
         </NuxtLink>
 
-        <nav class="flex gap-6 text-sm">
+        <nav class="flex gap-6 text-base">
           <NuxtLink to="/blog" class="text-accent underline-offset-4 hover:underline">Blog</NuxtLink>
           <NuxtLink to="/portfolio" class="text-accent underline-offset-4 hover:underline">Portfolio</NuxtLink>
           <a
