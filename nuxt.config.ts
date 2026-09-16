@@ -7,6 +7,16 @@ export default defineNuxtConfig({
 
   modules: ['@nuxt/content', '@nuxt/fonts'],
 
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/favicon-96x96.png' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      ],
+    },
+  },
+
   fonts: {
     families: [
       { name: 'Lato', provider: 'google', weights: [400, 700], styles: ['normal', 'italic'] },
