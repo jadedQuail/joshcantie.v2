@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 
   fonts: {
     families: [
-      { name: 'Lato', provider: 'google', weights: [400, 700], styles: ['normal', 'italic'] },
+      { name: 'Inter', provider: 'google', weights: [400, 500, 600, 700], styles: ['normal', 'italic'] },
     ],
   },
 

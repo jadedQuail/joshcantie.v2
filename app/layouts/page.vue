@@ -4,12 +4,12 @@
       <div class="mx-auto flex max-w-5xl items-baseline justify-between gap-6 px-6 py-6">
         <NuxtLink
           to="/"
-          class="font-display text-accent text-lg font-bold tracking-tight underline-offset-4 hover:underline"
+          class="font-display text-accent text-[22px] font-bold tracking-tight underline-offset-4 hover:underline"
         >
           Josh Cantie
         </NuxtLink>
 
-        <nav class="flex gap-6 text-base">
+        <nav class="flex gap-6 text-[20px]">
           <NuxtLink to="/blog" class="text-accent underline-offset-4 hover:underline">Blog</NuxtLink>
           <NuxtLink to="/portfolio" class="text-accent underline-offset-4 hover:underline">Portfolio</NuxtLink>
           <a
