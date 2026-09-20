@@ -4,7 +4,7 @@
     class="border-line bg-surface not-prose my-8 flex flex-col overflow-hidden rounded-lg border"
   >
     <div class="px-4 pt-4">
-      <h2 class="font-display text-accent text-xl font-bold tracking-tight">
+      <h2 class="font-display text-accent text-xl font-medium tracking-tight">
         {{ project.title }}
       </h2>
       <p class="text-muted text-sm">{{ project.category }}</p>

@@ -9,7 +9,7 @@
     />
 
     <div class="flex flex-col items-center text-center sm:items-start sm:text-left">
-      <h1 class="text-accent font-display text-4xl font-normal tracking-tight sm:text-5xl">
+      <h1 class="text-accent font-display text-4xl font-medium tracking-tight sm:text-5xl">
         Josh Cantie
       </h1>
 

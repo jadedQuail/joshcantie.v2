@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-accent font-display mb-10 text-4xl font-normal tracking-tight">Portfolio</h1>
+  <h1 class="text-accent font-display mb-10 text-4xl font-medium tracking-tight">Portfolio</h1>
 
   <p v-if="!projects?.length">Nothing here yet.</p>
 
@@ -10,7 +10,7 @@
       class="border-line bg-surface flex flex-col overflow-hidden rounded-lg border"
     >
       <div class="px-4 pt-4">
-        <h2 class="font-display text-accent text-xl font-bold tracking-tight">
+        <h2 class="font-display text-accent text-xl font-medium tracking-tight">
           {{ project.title }}
         </h2>
         <p class="text-muted text-sm">{{ project.category }}</p>

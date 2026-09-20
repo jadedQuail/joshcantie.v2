@@ -8,13 +8,13 @@
     </NuxtLink>
 
     <header class="mt-8 mb-10">
-      <h1 class="text-accent font-display text-4xl font-bold tracking-tight">{{ post!.title }}</h1>
+      <h1 class="text-accent font-display text-4xl font-medium tracking-tight">{{ post!.title }}</h1>
       <PostDate :date="post!.date" class="mt-2 block" />
     </header>
 
     <ContentRenderer
       :value="post!"
-      class="prose prose-headings:font-display prose-headings:tracking-tight prose-a:text-accent prose-a:decoration-accent/40 prose-a:hover:decoration-accent prose-a:underline-offset-4 max-w-none"
+      class="prose prose-headings:font-display prose-headings:font-medium prose-headings:tracking-tight prose-a:text-accent prose-a:decoration-accent/40 prose-a:hover:decoration-accent prose-a:underline-offset-4 max-w-none"
     />
 
     <nav
@@ -24,7 +24,7 @@
       <NuxtLink v-if="newer" :to="newer.path" class="group text-accent">
         <span class="text-muted text-sm">&larr; Newer Post</span>
         <span
-          class="font-display mt-1 block font-bold tracking-tight underline-offset-4 group-hover:underline"
+          class="font-display mt-1 block font-medium tracking-tight underline-offset-4 group-hover:underline"
         >
           {{ newer.title }}
         </span>
@@ -37,7 +37,7 @@
       >
         <span class="text-muted text-sm">Older Post &rarr;</span>
         <span
-          class="font-display mt-1 block font-bold tracking-tight underline-offset-4 group-hover:underline"
+          class="font-display mt-1 block font-medium tracking-tight underline-offset-4 group-hover:underline"
         >
           {{ older.title }}
         </span>
