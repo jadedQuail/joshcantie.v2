@@ -50,12 +50,8 @@ pnpm-debug.log*
 coverage/
 .nyc_output/
 
-# Editors — keep shared VS Code config (Peacock color lives in settings.json)
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
-!.vscode/launch.json
-!.vscode/tasks.json
+# Editors (local-only)
+.vscode/
 .idea/
 *.swp
 
